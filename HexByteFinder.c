@@ -50,7 +50,7 @@ int main(int argc, char *argv[]) {
     }
 
     bool debug_flag = 0;
-    char *debug_value = getenv("LAB11DEBUG");
+    char *debug_value = getenv("DEBUG");
     if (debug_value != NULL && strcmp(debug_value, "ON") == 0) {
         debug_flag = 1;
     }
